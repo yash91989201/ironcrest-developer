@@ -195,8 +195,215 @@ categories.forEach(cat => {
         "Awarded 'Best Sustainable Industrial Project' by regional authority."
       ]
     });
+
   }
 });
+
+// Indian Projects
+const indianProjects: Project[] = [
+  {
+    id: idCounter++,
+    title: "Jamnagar Refinery Complex",
+    location: "Jamnagar, Gujarat, India",
+    category: "Oil & Gas",
+    image: "https://images.unsplash.com/photo-1563288960-72e733c976d6?q=80&w=800&auto=format&fit=crop",
+    client: "Reliance Industries",
+    completionDate: "2025",
+    budget: "$6 Billion",
+    description: "Expansion of the world's largest refining hub, incorporating advanced crude processing units and petrochemical integration.",
+    challenge: "Integrating new units with existing infrastructure without disrupting continuous operations of the massive refinery complex.",
+    solution: "Utilized modular construction for key units and implemented a digital twin for real-time monitoring of tie-in points.",
+    materials: ["High-Strength Steel", "Cryogenic Concrete", "Refractory Bricks"],
+    architect: "Ironcrest India Design",
+    size: "500,000 sq ft",
+    features: ["World's Largest Refinery", "Integrated Petrochemicals", "Desalination Plant", "Captive Power Plant"],
+    gallery: [
+      "https://images.unsplash.com/photo-1518709414768-a88981a4515d?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=800&auto=format&fit=crop"
+    ],
+    sustainability: "Implemented advanced waste heat recovery systems and zero liquid discharge technologies.",
+    awards: ["Best Refinery Project 2024", "National Safety Award"],
+    scope: "EPC, Commissioning, and Start-up support.",
+    objectives: ["Increase refining capacity by 20%", "Enhance petrochemical feedstock production", "Reduce specific energy consumption"],
+    techSpecs: [
+      { label: "Capacity", value: "1.24 Million Barrels/Day" },
+      { label: "Area", value: "7,500 Acres" },
+      { label: "Power", value: "Captive Power Plants" },
+      { label: "Water", value: "Desalination Units" },
+      { label: "Control", value: "Distributed Control System" }
+    ],
+    projectTimeline: [
+      { phase: "Phase 1", date: "Jan 2023", desc: "Engineering & Procurement" },
+      { phase: "Phase 2", date: "Jun 2023", desc: "Civil Works & Structural Erection" },
+      { phase: "Phase 3", date: "Dec 2024", desc: "Mechanical Completion" },
+      { phase: "Phase 4", date: "Jun 2025", desc: "Commissioning" }
+    ],
+    outcomes: ["Capacity expansion targets met", "Safety record maintained", "Energy efficiency improved"]
+  },
+  {
+    id: idCounter++,
+    title: "Mumbai High South Redevelopment",
+    location: "Mumbai Offshore, India",
+    category: "Offshore",
+    image: "https://images.unsplash.com/photo-1605648916361-9bc12ad6a569?q=80&w=800&auto=format&fit=crop",
+    client: "ONGC",
+    completionDate: "2024",
+    budget: "$2.5 Billion",
+    description: "Redevelopment of the Mumbai High South field to enhance oil recovery and extend field life.",
+    challenge: "Executing complex brownfield modifications on aging offshore platforms in rough sea conditions.",
+    solution: "Deployed heavy-lift vessels for platform installation and used subsea robotics for pipeline tie-ins.",
+    materials: ["Marine Grade Steel", "Corrosion Resistant Alloys"],
+    architect: "Ironcrest Offshore",
+    size: "N/A",
+    features: ["Enhanced Oil Recovery", "New Well Platforms", "Subsea Pipelines", "Gas Lift Systems"],
+    gallery: [
+      "https://res.cloudinary.com/osrl-production/image/upload/osrlprod/globalassets/knowledge-hub-169/crisis-management/offshore-wind-farm-turbines.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMiQf8uiKadPMvSV6VRm3iOuOLGn30UhKKQ&s",
+      "https://static.wixstatic.com/media/9d72ca_ed45696868fc4a9eb44f2e33f7150692~mv2.png/v1/fill/w_720,h_432,al_c,q_85,enc_avif,quality_auto/9d72ca_ed45696868fc4a9eb44f2e33f7150692~mv2.png"
+    ],
+    sustainability: "Reduced flaring and improved produced water treatment.",
+    awards: ["Offshore Excellence Award", "Environmental Stewardship"],
+    scope: "EPCI (Engineering, Procurement, Construction, Installation)",
+    objectives: ["Arrest production decline", "Maximize recovery factor", "Upgrade safety systems"],
+    techSpecs: [
+      { label: "Water Depth", value: "80 Meters" },
+      { label: "Wells", value: "New & Workover Wells" },
+      { label: "Pipelines", value: "Subsea Inter-field" },
+      { label: "Platforms", value: "Process & Wellhead" },
+      { label: "Life Extension", value: "20 Years" }
+    ],
+    projectTimeline: [
+      { phase: "Survey", date: "2021", desc: "Geophysical Survey" },
+      { phase: "Fab", date: "2022", desc: "Jacket & Topside Fabrication" },
+      { phase: "Install", date: "2023", desc: "Offshore Installation" },
+      { phase: "Hookup", date: "2024", desc: "Hookup & Commissioning" }
+    ],
+    outcomes: ["Production stabilized", "Safety systems upgraded", "Field life extended"]
+  },
+  {
+    id: idCounter++,
+    title: "Khavda Renewable Energy Park",
+    location: "Rann of Kutch, Gujarat, India",
+    category: "Renewable Energy",
+    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=800&auto=format&fit=crop",
+    client: "Adani Green Energy",
+    completionDate: "2026",
+    budget: "$18 Billion",
+    description: "Development of the world's largest renewable energy park, combining solar and wind power.",
+    challenge: "Constructing in a remote, saline desert environment with extreme temperatures and logistical challenges.",
+    solution: "Used robotic cleaning for solar panels and pre-cast foundations for wind turbines to speed up construction.",
+    materials: ["Solar PV Modules", "Steel Towers", "Composite Blades"],
+    architect: "Ironcrest Renewables",
+    size: "72,600 Hectares",
+    features: ["Hybrid Solar-Wind", "Grid Connectivity", "Robotic Cleaning", "Remote Monitoring"],
+    gallery: [
+      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=800&auto=format&fit=crop",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/1c/39/3f/caption.jpg?w=900&h=500&s=1"
+    ],
+    sustainability: "Generates clean energy to power millions of homes, offsetting massive carbon emissions.",
+    awards: ["Green Energy Project of the Year", "Innovation in Renewables"],
+    scope: "Development, EPC, and O&M",
+    objectives: ["Generate 30 GW of clean energy", "Create green jobs", "Support national renewable targets"],
+    techSpecs: [
+      { label: "Capacity", value: "30 GW" },
+      { label: "Solar", value: "Bifacial Modules" },
+      { label: "Wind", value: "5.2 MW Turbines" },
+      { label: "Grid", value: "Ultra High Voltage" },
+      { label: "Location", value: "Khavda, Kutch" }
+    ],
+    projectTimeline: [
+      { phase: "Land", date: "2022", desc: "Land Acquisition & Permits" },
+      { phase: "Infra", date: "2023", desc: "Roads & Transmission Lines" },
+      { phase: "Install", date: "2024-2026", desc: "Phased Installation" },
+      { phase: "Ops", date: "2026", desc: "Full Operations" }
+    ],
+    outcomes: ["World's largest RE park", "Significant carbon reduction", "Economic development of the region"]
+  },
+  {
+    id: idCounter++,
+    title: "Dahej Petrochemical Complex",
+    location: "Dahej, Gujarat, India",
+    category: "Petrochemicals",
+    image: "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=800&auto=format&fit=crop",
+    client: "OPaL",
+    completionDate: "2023",
+    budget: "$4 Billion",
+    description: "A dual-feed cracker unit and downstream polymer plants.",
+    challenge: "Managing complex logistics for transporting oversized equipment and ensuring feedstock security.",
+    solution: "Established a dedicated jetty for logistics and long-term contracts for feedstock supply.",
+    materials: ["Specialized Alloys", "Concrete", "Steel Structures"],
+    architect: "Ironcrest Process",
+    size: "1000 Acres",
+    features: ["Dual Feed Cracker", "Polymer Units", "Captive Power", "Effluent Treatment"],
+    gallery: [
+      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1577495508048-b635879837f1?q=80&w=800&auto=format&fit=crop",
+      "https://www.bollegraaf.com/content/uploads/2023/03/IMG_8599-1600x1067.jpg"
+    ],
+    sustainability: "Zero liquid discharge and high energy efficiency standards.",
+    awards: ["Petrochemical Project Award", "Operational Excellence"],
+    scope: "EPC and Technology Licensing",
+    objectives: ["Produce high-value polymers", "Import substitution", "Export promotion"],
+    techSpecs: [
+      { label: "Ethylene", value: "1.1 KTPA" },
+      { label: "Propylene", value: "400 KTPA" },
+      { label: "Polymer", value: "HDPE, LLDPE, PP" },
+      { label: "Power", value: "CPP" },
+      { label: "Water", value: "Desalination" }
+    ],
+    projectTimeline: [
+      { phase: "FEED", date: "2019", desc: "Front End Engineering Design" },
+      { phase: "EPC", date: "2020-2022", desc: "Construction" },
+      { phase: "Comms", date: "2023", desc: "Commissioning" },
+      { phase: "Ops", date: "2023", desc: "Commercial Production" }
+    ],
+    outcomes: ["Successful startup", "High capacity utilization", "Quality products"]
+  },
+  {
+    id: idCounter++,
+    title: "Chenab Rail Bridge",
+    location: "Reasi, J&K, India",
+    category: "Infrastructure",
+    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=800&auto=format&fit=crop",
+    client: "Indian Railways",
+    completionDate: "2024",
+    budget: "$180 Million",
+    description: "Construction of the world's highest railway bridge, a steel arch bridge over the Chenab river.",
+    challenge: "Building a massive steel arch in a highly seismic zone with high wind speeds and difficult terrain.",
+    solution: "Used cable cranes for erection and extensive wind tunnel testing to ensure stability.",
+    materials: ["Blast Proof Steel", "Reinforced Concrete"],
+    architect: "Ironcrest Infra",
+    size: "1.3 km Length",
+    features: ["World's Highest Bridge", "Blast Proof", "Seismic Resistant", "100 Year Life"],
+    gallery: [
+      "https://www.arup.com/globalassets/images/projects/m/metro-tunnel-project/metro-tunnel-project.webp?width=1840&height=1035&quality=80",
+      "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=800&auto=format&fit=crop",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWWL-f4K7vgOsDTiQ6KqWiNZ2i07mwdAfzy4A7VBJGwPAkmdsftCQvbZrw-Z1A-I77w18IEKnw"
+    ],
+    sustainability: "Connecting remote regions by rail reduces reliance on road transport and associated emissions.",
+    awards: ["Engineering Marvel", "Record Breaker"],
+    scope: "Design and Construction",
+    objectives: ["Connect Kashmir to rest of India", "All-weather connectivity", "Strategic importance"],
+    techSpecs: [
+      { label: "Height", value: "359 Meters" },
+      { label: "Span", value: "467 Meters" },
+      { label: "Steel", value: "28,660 MT" },
+      { label: "Design Speed", value: "100 Kmph" },
+      { label: "Lifespan", value: "120 Years" }
+    ],
+    projectTimeline: [
+      { phase: "Design", date: "2015", desc: "Final Design Approval" },
+      { phase: "Arch", date: "2021", desc: "Arch Closure" },
+      { phase: "Deck", date: "2022", desc: "Deck Launching" },
+      { phase: "Track", date: "2024", desc: "Track Linking" }
+    ],
+    outcomes: ["Engineering history made", "Vital connectivity established", "Boost to local economy"]
+  }
+];
+
+projects.push(...indianProjects);
 
 export const team: TeamMember[] = [
   {
@@ -308,5 +515,85 @@ export const jobs: Job[] = [
     location: "Dubai, UAE",
     type: "Full-Time",
     description: "Ensure strict adherence to safety protocols on high-rise construction sites. Certification in occupational health and safety required."
+  },
+  {
+    id: 5,
+    title: "Full Stack Developer - Construction Software",
+    department: "Technology",
+    location: "Houston, TX / Remote",
+    type: "Full-Time",
+    description: "Build and maintain internal construction management platforms. Work with React, Node.js, and cloud infrastructure to create tools for project tracking, resource allocation, and real-time collaboration."
+  },
+  {
+    id: 6,
+    title: "BIM Software Engineer",
+    department: "Technology",
+    location: "Singapore / Hybrid",
+    type: "Full-Time",
+    description: "Develop custom plugins and integrations for Autodesk Revit, Navisworks, and other BIM platforms. Experience with C#, .NET, and 3D modeling APIs required."
+  },
+  {
+    id: 7,
+    title: "DevOps Engineer - Construction Tech",
+    department: "Technology",
+    location: "Remote",
+    type: "Full-Time",
+    description: "Manage CI/CD pipelines, cloud infrastructure (AWS/Azure), and containerized deployments for construction software applications. Ensure high availability and security for mission-critical systems."
+  },
+  {
+    id: 8,
+    title: "Data Engineer - Project Analytics",
+    department: "Technology",
+    location: "Dubai, UAE",
+    type: "Full-Time",
+    description: "Design and implement data pipelines to analyze construction project metrics, costs, and timelines. Build dashboards and predictive models using Python, SQL, and modern BI tools."
+  },
+  {
+    id: 9,
+    title: "Mobile App Developer - Field Operations",
+    department: "Technology",
+    location: "Remote / Hybrid",
+    type: "Contract",
+    description: "Create mobile applications for on-site workers to report progress, safety incidents, and equipment status. Experience with React Native or Flutter and offline-first architecture required."
+  },
+  {
+    id: 10,
+    title: "IoT Engineer - Smart Construction",
+    department: "Technology",
+    location: "Singapore",
+    type: "Full-Time",
+    description: "Deploy and manage IoT sensors for real-time monitoring of equipment, materials, and site conditions. Work with edge computing, MQTT protocols, and industrial IoT platforms."
+  },
+  {
+    id: 11,
+    title: "UI/UX Designer - Construction Software",
+    department: "Technology",
+    location: "Houston, TX / Remote",
+    type: "Full-Time",
+    description: "Design intuitive interfaces for construction management tools used by field workers and project managers. Experience with Figma, user research, and designing for industrial environments required."
+  },
+  {
+    id: 12,
+    title: "QA Automation Engineer",
+    department: "Technology",
+    location: "Remote",
+    type: "Full-Time",
+    description: "Build automated testing frameworks for construction software applications. Expertise in Selenium, Cypress, or Playwright, along with CI/CD integration and performance testing."
+  },
+  {
+    id: 13,
+    title: "Cloud Solutions Architect",
+    department: "Technology",
+    location: "Dubai, UAE / Hybrid",
+    type: "Full-Time",
+    description: "Design scalable cloud architectures for global construction operations. Lead migration of legacy systems to AWS/Azure and implement microservices for enterprise applications."
+  },
+  {
+    id: 14,
+    title: "Cybersecurity Engineer - Industrial Systems",
+    department: "Technology",
+    location: "Aberdeen, UK",
+    type: "Full-Time",
+    description: "Protect construction software and industrial control systems from cyber threats. Implement security protocols, conduct penetration testing, and ensure compliance with industry standards."
   }
 ];

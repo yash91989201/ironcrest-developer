@@ -1,6 +1,8 @@
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
+
+const ai = new GoogleGenAI({ apiKey: GOOGLE_API_KEY });
 
 export const consultProject = async (projectDescription: string): Promise<string> => {
   try {

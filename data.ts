@@ -36,37 +36,36 @@ const locations = ["Texas, USA", "North Sea, UK", "Dubai, UAE", "Singapore", "Pe
 const projectImages = {
   "Oil & Gas": [
     "https://images.unsplash.com/photo-1518709414768-a88981a4515d?q=80&w=800&auto=format&fit=crop", // Refinery night
-    "https://images.unsplash.com/photo-1582653291997-079a1c04c5fc?q=80&w=800&auto=format&fit=crop", // Pipes
+    "https://cdn.stocksnap.io/img-thumbs/960w/sea-ocean_85JUR5TYWM.jpg", // Pipes
     "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800&auto=format&fit=crop", // Industrial
     "https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=800&auto=format&fit=crop", // Silos
-    "https://images.unsplash.com/photo-1460317442991-0ec2aa92fc99?q=80&w=800&auto=format&fit=crop", // Construction
+    "https://www.shutterstock.com/image-photo/st-johns-newfoundland-canadajanuary-2023-600nw-2269617229.jpg", // Construction
     "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=800&auto=format&fit=crop", // Valve
-    "https://images.unsplash.com/photo-1629814484358-1f3073289045?q=80&w=800&auto=format&fit=crop", // Storage
-    "https://images.unsplash.com/photo-1535200226305-62bb82a20e83?q=80&w=800&auto=format&fit=crop", // Rig
-    "https://images.unsplash.com/photo-1594411132644-8cb5069b1686?q=80&w=800&auto=format&fit=crop", // Pipes 2
-    "https://images.unsplash.com/photo-1563273894-3918a24c29e2?q=80&w=800&auto=format&fit=crop"  // Industry
+    "https://www.bluemountainmidstream.com/wp-content/uploads/2019/03/image-capabilities@2x.jpg", // Storage
+    "https://www.investopedia.com/thmb/p08doiQCigm5e-NXvA-ziOjIDqw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-955491344-f978b8072db542cdbce83d48d9648d52.jpg", // Pipes 2
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUNtDCJmRThyP_YCzhSbDlzvwVmwHu2npd1g&s"  // Industry
   ],
   "Offshore": [
-    "https://images.unsplash.com/photo-1569045863385-2e69772da100?q=80&w=800&auto=format&fit=crop", // Rig Sea
+    "https://res.cloudinary.com/osrl-production/image/upload/osrlprod/globalassets/knowledge-hub-169/crisis-management/offshore-wind-farm-turbines.png", // Rig Sea
     "https://images.unsplash.com/photo-1605648916361-9bc12ad6a569?q=80&w=800&auto=format&fit=crop", // Platform
-    "https://images.unsplash.com/photo-1574069871615-5c1a766c6c78?q=80&w=800&auto=format&fit=crop", // Ocean Rig
-    "https://images.unsplash.com/photo-1628172967115-3db3dd671f49?q=80&w=800&auto=format&fit=crop", // Ship
-    "https://images.unsplash.com/photo-1452458421882-c438318b7636?q=80&w=800&auto=format&fit=crop", // Sea
-    "https://images.unsplash.com/photo-1541624602-0e0988e02580?q=80&w=800&auto=format&fit=crop", // Ship cargo
-    "https://images.unsplash.com/photo-1551699905-2b4b4556df2a?q=80&w=800&auto=format&fit=crop", // Welding
-    "https://images.unsplash.com/photo-1617154238590-48b4e4df9410?q=80&w=800&auto=format&fit=crop", // Waves rig
-    "https://images.unsplash.com/photo-1573167101669-476636746fd2?q=80&w=800&auto=format&fit=crop", // Engineer
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMiQf8uiKadPMvSV6VRm3iOuOLGn30UhKKQ&s", // Ocean Rig
+    "https://static.wixstatic.com/media/9d72ca_ed45696868fc4a9eb44f2e33f7150692~mv2.png/v1/fill/w_720,h_432,al_c,q_85,enc_avif,quality_auto/9d72ca_ed45696868fc4a9eb44f2e33f7150692~mv2.png", // Ship
+    "https://www.fordham.edu/media/review/content-assets/migrated/images/fordham_042508_0004.jpg", // Sea
+    "https://scpr.brightspotcdn.com/dims4/default/2219ff8/2147483647/strip/true/crop/888x665+0+0/resize/880x659!/quality/90/?url=https%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2010%2F10%2F12%2F60401696_3973481-fbc4f2c50bef9762fc292ba58178a9dc88626dcb.jpg", // Ship cargo
+    "https://www.oberonengineering.com/wp-content/uploads/2024/03/shutterstock_1606208581.webp", // Welding
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqqMVkQ26T4572ta92PGl0eoZ_qBbTal2vRQ&s", // Waves rig
+    "https://dvzpv6x5302g1.cloudfront.net/AcuCustom/Sitename/DAM/144/web_only_Anita_Garbaldi_source_Petrobras.png", // Engineer
     "https://images.unsplash.com/photo-1618172193763-c511deb635ca?q=80&w=800&auto=format&fit=crop"  // Platform night
   ],
   "Renewable Energy": [
     "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=800&auto=format&fit=crop", // Solar
     "https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=800&auto=format&fit=crop", // Wind
     "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=800&auto=format&fit=crop", // Green Tech
-    "https://images.unsplash.com/photo-1497435334941-8c8de8d29114?q=80&w=800&auto=format&fit=crop", // Solar Panels
-    "https://images.unsplash.com/photo-1508514177221-188b1cf2f24f?q=80&w=800&auto=format&fit=crop", // Wind Farm
-    "https://images.unsplash.com/photo-1545208942-e0c465d64438?q=80&w=800&auto=format&fit=crop", // Turbine
-    "https://images.unsplash.com/photo-1559302504-64aae6ca6b6f?q=80&w=800&auto=format&fit=crop", // Hydro
-    "https://images.unsplash.com/photo-1592833159057-65a284572bce?q=80&w=800&auto=format&fit=crop", // Dam
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/1c/39/3f/caption.jpg?w=900&h=500&s=1", // Solar Panels
+    "https://www.thisiseco.co.uk/wp-content/uploads/2020/11/biomass-biogas.jpeg", // Wind Farm
+    "https://media.istockphoto.com/id/1453859222/photo/view-of-modern-photovoltaic-solar-panels-to-charge-battery-rows-of-sustainable-energy-solar.jpg?s=612x612&w=0&k=20&c=Rmv3Ah3pibVN2KT4Vwyb60C1BcplmNrHT1OvyWxH_iU=", // Turbine
+    "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3eV8PYkToXAT-Ffe-Vc_Iv78RrZs2TEQoXb1EKzwSJzmyW4YMUCgfY8PKtkWl92ZapRDaTJTX", // Hydro
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTUs6phOqA3TG17_s3lP-FuPueCOtjDvsNDDYkzbmSYhnIxEx2KDgLDa1EQSopzwed4bcaajPC", // Dam
     "https://images.unsplash.com/photo-1548337138-e87d889cc369?q=80&w=800&auto=format&fit=crop", // Wind close
     "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=800&auto=format&fit=crop"  // Solar field
   ],
@@ -74,52 +73,52 @@ const projectImages = {
     "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=800&auto=format&fit=crop", // Lab/Factory
     "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop", // Smoke stacks
     "https://images.unsplash.com/photo-1577495508048-b635879837f1?q=80&w=800&auto=format&fit=crop", // Refinery
-    "https://images.unsplash.com/photo-1516937941348-c09e554b966f?q=80&w=800&auto=format&fit=crop", // Chemical
+    "https://www.bollegraaf.com/content/uploads/2023/03/IMG_8599-1600x1067.jpg", // Chemical
     "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=800&auto=format&fit=crop", // Pipes industrial
-    "https://images.unsplash.com/photo-1611273426761-53c8577a20fa?q=80&w=800&auto=format&fit=crop", // Factory inside
+    "https://media.istockphoto.com/id/608480162/photo/white-buildings-of-modern-factory.jpg?s=612x612&w=0&k=20&c=nL_PKKOjNinv-jkaMmfqfwlJohBCorlzqVdUgMC1H1M=", // Factory inside
     "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?q=80&w=800&auto=format&fit=crop", // Workers
-    "https://images.unsplash.com/photo-1533630248464-9d5885e3532c?q=80&w=800&auto=format&fit=crop", // Tanks
+    "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSgnweWONSaYaBg1XyZOAhpkgIV0gqp2oKYb5zEPRJhgnmgVQSGilh61S6cHUNid-EDDtGEomzL", // Tanks
     "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop", // Steel
     "https://images.unsplash.com/photo-1518733057094-95b53143d2a7?q=80&w=800&auto=format&fit=crop"  // Complexity
   ],
   "Infrastructure": [
     "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=800&auto=format&fit=crop", // Bridge
-    "https://images.unsplash.com/photo-1513828583688-c29a7f99ad13?q=80&w=800&auto=format&fit=crop", // Bridge 2
+    "https://www.arup.com/globalassets/images/projects/m/metro-tunnel-project/metro-tunnel-project.webp?width=1840&height=1035&quality=80", // Bridge 2
     "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=800&auto=format&fit=crop", // City
     "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=800&auto=format&fit=crop", // Lights
-    "https://images.unsplash.com/photo-1461301214746-1e790926d323?q=80&w=800&auto=format&fit=crop", // Bridge dusk
-    "https://images.unsplash.com/photo-1590486803833-1c5dc8ce84ac?q=80&w=800&auto=format&fit=crop", // Tunnel
-    "https://images.unsplash.com/photo-1485628390555-1a7bd503f9fe?q=80&w=800&auto=format&fit=crop", // Architecture
-    "https://images.unsplash.com/photo-1524316524193-4702334f66d4?q=80&w=800&auto=format&fit=crop", // Highway
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWWL-f4K7vgOsDTiQ6KqWiNZ2i07mwdAfzy4A7VBJGwPAkmdsftCQvbZrw-Z1A-I77w18IEKnw", // Bridge dusk
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsKFtNWt62MtL2h5tO6fob6Q7h7Bjyd99GQ&s", // Tunnel
+    "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcz4LK3H6g4CmdCY23t1-KYdKsyzaeLkOe1OgtcHze2_kGNMAygExfc95IJj_JYJ0qFpEvbR-c", // Architecture
+    "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBfnadjain7OoZOuIx2DPjSUjB2DpqpzdU1hCqLVdAeXETZyWKXLX-S-cWeXIixYt_oHGPtu-j", // Highway
     "https://images.unsplash.com/photo-1425315283416-2acc50323ee6?q=80&w=800&auto=format&fit=crop", // Road
-    "https://images.unsplash.com/photo-1555587095-888915004740?q=80&w=800&auto=format&fit=crop"  // Concrete
+    "https://thumbs.dreamstime.com/b/tokyo-street-view-evening-japan-june-travel-photography-120032419.jpg"  // Concrete
   ]
 };
 
 const names = {
   "Oil & Gas": [
-    "Desert Gold Refinery", "North Sea Platform Alpha", "Pipeline Expansion Project", "Terminal 4 Storage", 
-    "Deepwater Drill Site B", "Coastal LNG Facility", "Midstream Processing Plant", "West Field Extraction", 
+    "Desert Gold Refinery", "North Sea Platform Alpha", "Pipeline Expansion Project", "Terminal 4 Storage",
+    "Deepwater Drill Site B", "Coastal LNG Facility", "Midstream Processing Plant", "West Field Extraction",
     "Eastern Pipeline Hub", "Global Gas Terminal"
   ],
   "Offshore": [
-    "Atlantic Wind Farm Base", "Pacific Rig 7", "Deep Blue Subsea Unit", "Offshore Logistics Hub", 
-    "Marine Research Station", "Gulf Coast Platform", "Oceanic Drilling Ship", "Subsea Pipeline Network", 
+    "Atlantic Wind Farm Base", "Pacific Rig 7", "Deep Blue Subsea Unit", "Offshore Logistics Hub",
+    "Marine Research Station", "Gulf Coast Platform", "Oceanic Drilling Ship", "Subsea Pipeline Network",
     "Floating Production Unit", "Anchor Point Facility"
   ],
   "Renewable Energy": [
-    "Solar Horizon Park", "Wind Valley Turbines", "Geothermal Plant One", "Hydroelectric Dam Alpha", 
-    "Bioenergy Facility", "Solar Array Beta", "Coastal Wind Farm", "Green Grid Substation", 
+    "Solar Horizon Park", "Wind Valley Turbines", "Geothermal Plant One", "Hydroelectric Dam Alpha",
+    "Bioenergy Facility", "Solar Array Beta", "Coastal Wind Farm", "Green Grid Substation",
     "Thermal Energy Center", "Eco-Power Plant"
   ],
   "Petrochemicals": [
-    "Polymer Processing Unit", "Chemical Synthesis Plant", "Refinery Cracking Unit", "Plastics Manufacturing Hub", 
-    "Ethylene Production Site", "Industrial Chemical Park", "Bio-fuel Refinery", "Synthetic Rubber Plant", 
+    "Polymer Processing Unit", "Chemical Synthesis Plant", "Refinery Cracking Unit", "Plastics Manufacturing Hub",
+    "Ethylene Production Site", "Industrial Chemical Park", "Bio-fuel Refinery", "Synthetic Rubber Plant",
     "Ammonia Storage Facility", "Advanced Materials Lab"
   ],
   "Infrastructure": [
-    "Titan Bridge", "Metro Tunnel System", "Harbor Port Expansion", "City Highway Network", 
-    "International Airport Terminal", "Railway Logistics Hub", "Urban Water Treatment", "National Power Grid", 
+    "Titan Bridge", "Metro Tunnel System", "Harbor Port Expansion", "City Highway Network",
+    "International Airport Terminal", "Railway Logistics Hub", "Urban Water Treatment", "National Power Grid",
     "Coastal Sea Wall", "Civic Center Road"
   ]
 };
@@ -130,7 +129,7 @@ let idCounter = 1;
 
 categories.forEach(cat => {
   const catImages = projectImages[cat as keyof typeof projectImages];
-  
+
   for (let i = 0; i < 10; i++) {
     const gallery = [
       catImages[(i + 1) % catImages.length],
@@ -168,32 +167,32 @@ categories.forEach(cat => {
         "Best Industrial Design - Regional"
       ],
       scope: "EPC (Engineering, Procurement, Construction), Project Management, Site Analysis, and Post-Construction Maintenance.",
-      
+
       // New Detailed Fields
       objectives: [
-          "Increase production capacity by 150% within 24 months.",
-          "Achieve Net-Zero carbon emissions for operational phases.",
-          "Integrate full AI-driven automation for monitoring and safety.",
-          "Maintain strict adherence to ISO 45001 safety standards."
+        "Increase production capacity by 150% within 24 months.",
+        "Achieve Net-Zero carbon emissions for operational phases.",
+        "Integrate full AI-driven automation for monitoring and safety.",
+        "Maintain strict adherence to ISO 45001 safety standards."
       ],
       techSpecs: [
-          { label: "Foundation Depth", value: "45 Meters (Piled)" },
-          { label: "Structural Steel", value: "12,000 Tons" },
-          { label: "Peak Power Output", value: "450 MW" },
-          { label: "Daily Capacity", value: "50,000 Barrels / Units" },
-          { label: "Control System", value: "Siemens PCS 7" }
+        { label: "Foundation Depth", value: "45 Meters (Piled)" },
+        { label: "Structural Steel", value: "12,000 Tons" },
+        { label: "Peak Power Output", value: "450 MW" },
+        { label: "Daily Capacity", value: "50,000 Barrels / Units" },
+        { label: "Control System", value: "Siemens PCS 7" }
       ],
       projectTimeline: [
-          { phase: "Q1 2020", date: "Jan 2020", desc: "Site Survey & Environmental Impact Assessment" },
-          { phase: "Q3 2020", date: "Aug 2020", desc: "Foundation Laying & Core Structural Work" },
-          { phase: "Q2 2021", date: "May 2021", desc: "Heavy Machinery Installation & System Integration" },
-          { phase: "Q4 2021", date: "Nov 2021", desc: "Testing, Commissioning & Handover" }
+        { phase: "Q1 2020", date: "Jan 2020", desc: "Site Survey & Environmental Impact Assessment" },
+        { phase: "Q3 2020", date: "Aug 2020", desc: "Foundation Laying & Core Structural Work" },
+        { phase: "Q2 2021", date: "May 2021", desc: "Heavy Machinery Installation & System Integration" },
+        { phase: "Q4 2021", date: "Nov 2021", desc: "Testing, Commissioning & Handover" }
       ],
       outcomes: [
-          "Delivered 3 weeks ahead of schedule.",
-          "Zero lost-time injury incidents over 1.5 million man-hours.",
-          "Operational efficiency increased by 35% compared to legacy systems.",
-          "Awarded 'Best Sustainable Industrial Project' by regional authority."
+        "Delivered 3 weeks ahead of schedule.",
+        "Zero lost-time injury incidents over 1.5 million man-hours.",
+        "Operational efficiency increased by 35% compared to legacy systems.",
+        "Awarded 'Best Sustainable Industrial Project' by regional authority."
       ]
     });
   }
@@ -221,7 +220,7 @@ export const team: TeamMember[] = [
     image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&auto=format&fit=crop",
     bio: "Civil engineering expert ensuring every structure exceeds safety and durability standards."
   },
-   {
+  {
     id: 4,
     name: "Elena Rodriguez",
     role: "Project Director",
@@ -271,10 +270,10 @@ export const faqs: FAQ[] = [
 ];
 
 export const stats: Stat[] = [
-    { label: "Years of Excellence", value: "38" },
-    { label: "Projects Completed", value: "450+" },
-    { label: "Safety Awards", value: "24" },
-    { label: "Countries Served", value: "15" }
+  { label: "Years of Excellence", value: "38" },
+  { label: "Projects Completed", value: "450+" },
+  { label: "Safety Awards", value: "24" },
+  { label: "Countries Served", value: "15" }
 ];
 
 export const jobs: Job[] = [

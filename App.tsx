@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import "./styles/index.css"
 
 import Home from './pages/Home';
 import AboutPage from './pages/AboutPage';

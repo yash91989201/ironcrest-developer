@@ -206,7 +206,7 @@ const indianProjects: Project[] = [
     title: "Jamnagar Refinery Complex",
     location: "Jamnagar, Gujarat, India",
     category: "Oil & Gas",
-    image: "https://images.unsplash.com/photo-1563288960-72e733c976d6?q=80&w=800&auto=format&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/32/Jamnagar_Refinery.jpg",
     client: "Reliance Industries",
     completionDate: "2025",
     budget: "$6 Billion",

@@ -29,7 +29,7 @@ const ProjectsPage: React.FC = () => {
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-iron-900 mb-4">
                 Filter by <span className="text-gold-500">Sector</span>
               </h2>
-              <p className="text-gray-600 mb-8 max-w-2xl">
+              <p className="text-gray-600 mb-8 mx-auto text-center max-w-2xl">
                 Explore our diverse project portfolio across the energy and infrastructure landscape.
               </p>
             </Reveal>

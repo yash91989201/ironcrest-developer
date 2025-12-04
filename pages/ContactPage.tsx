@@ -31,7 +31,7 @@ const ContactPage: React.FC = () => {
               { city: "New York", address: "1200 Steel Ave, Suite 500", phone: "+1 (212) 555-0123" },
               { city: "Los Angeles", address: "450 Wilshire Blvd, Floor 12", phone: "+1 (310) 555-0199" },
               { city: "Chicago", address: "780 Michigan Ave, Suite 300", phone: "+1 (312) 555-0155" },
-              { city: "Mumbai, India", address: "7 Marine Drive, Fort District", phone: "+91 22 5550 1234" },
+              { city: "Mumbai, India", address: "7 Marine Drive, Fort District", phone: "+91 7943494755" },
               { city: "London", address: "22 Bishopsgate, Level 18", phone: "+44 20 5550 7890" },
               { city: "Dubai", address: "120 Sheikh Zeyed Road, Tower 3", phone: "+971 4 5555 2040" }
             ].map((loc, index) => (

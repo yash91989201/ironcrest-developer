@@ -517,6 +517,54 @@ export const jobs: Job[] = [
     description: "Ensure strict adherence to safety protocols on high-rise construction sites. Certification in occupational health and safety required."
   },
   {
+    id: 15,
+    title: "Construction Manager - India",
+    department: "Operations",
+    location: "Mumbai, India",
+    type: "Full-Time",
+    description: "Lead large-scale infrastructure projects across India. Manage local teams, contractors, and ensure adherence to Ironcrest standards and safety protocols."
+  },
+  {
+    id: 16,
+    title: "Offshore Engineer - Mumbai High",
+    department: "Engineering",
+    location: "Mumbai, India",
+    type: "Full-Time",
+    description: "Specialized role for offshore oil & gas projects. Experience with subsea operations and platform modifications required."
+  },
+  {
+    id: 17,
+    title: "Refinery Process Engineer",
+    department: "Engineering",
+    location: "Jamnagar, India",
+    type: "Full-Time",
+    description: "Work on world's largest refinery complex. Process optimization, safety systems, and efficiency improvements for petrochemical operations."
+  },
+  {
+    id: 18,
+    title: "Renewable Energy Project Manager",
+    department: "Operations",
+    location: "Bangalore, India",
+    type: "Full-Time",
+    description: "Manage solar and wind energy projects across India. Coordinate with government agencies and ensure project milestones are met."
+  },
+  {
+    id: 19,
+    title: "Structural Design Engineer",
+    department: "Engineering",
+    location: "Chennai, India",
+    type: "Full-Time",
+    description: "Design and review structural components for industrial facilities. Experience with Indian codes (IS) and international standards required."
+  },
+  {
+    id: 20,
+    title: "Quality Assurance Inspector",
+    department: "Quality",
+    location: "Kochi, India",
+    type: "Full-Time",
+    description: "Conduct quality inspections for petrochemical and offshore projects. Ensure compliance with international safety and quality standards."
+  },
+  {
     id: 5,
     title: "Full Stack Developer - Construction Software",
     department: "Technology",
@@ -547,6 +595,22 @@ export const jobs: Job[] = [
     location: "Dubai, UAE",
     type: "Full-Time",
     description: "Design and implement data pipelines to analyze construction project metrics, costs, and timelines. Build dashboards and predictive models using Python, SQL, and modern BI tools."
+  },
+  {
+    id: 21,
+    title: "Site Engineer - Infrastructure",
+    department: "Engineering",
+    location: "Delhi, India",
+    type: "Full-Time",
+    description: "On-site engineering support for major infrastructure projects including bridges, highways, and urban development. Field supervision and technical guidance."
+  },
+  {
+    id: 22,
+    title: "HSE Officer - Industrial Projects",
+    department: "Safety",
+    location: "Hyderabad, India",
+    type: "Full-Time",
+    description: "Health, Safety, and Environment officer for industrial construction projects. Ensure compliance with local and international safety standards."
   },
   {
     id: 9,

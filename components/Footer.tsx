@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
               <a href="#" className="w-10 h-10 bg-white/5 flex items-center justify-center hover:bg-gold-600 transition-colors">
                 <Youtube size={18} />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/5 flex items-center justify-center hover:bg-gold-600 transition-colors">
+              <a href="https://www.instagram.com/ironcrestdevelopers?igsh=OWhvdXd6anJzMXhs" target="_blank" className="w-10 h-10 bg-white/5 flex items-center justify-center hover:bg-gold-600 transition-colors">
                 <Instagram size={18} />
               </a>
               <a href="http://linkedin.ironcrestdevelopers.com/" target="_blank" className="w-10 h-10 bg-white/5 flex items-center justify-center hover:bg-gold-600 transition-colors">

@@ -433,6 +433,34 @@ export const team: TeamMember[] = [
     role: "Project Director",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop",
     bio: "Master of logistics and timeline management, ensuring client projects are delivered on schedule."
+  },
+  {
+    id: 5,
+    name: "David L. Harrington",
+    role: "Executive Director – Global Projects",
+    image: "/assets/our-team/david-l-harrington.jpeg",
+    bio: "Leading international project initiatives with expertise in global infrastructure development and strategic partnership management."
+  },
+  {
+    id: 6,
+    name: "Priya Malhotra",
+    role: "Director – Strategic Development (Asia Pacific)",
+    image: "/assets/our-team/priya-malhotra.jpeg",
+    bio: "Driving growth across Asia-Pacific markets with deep understanding of regional construction standards and sustainable development practices."
+  },
+  {
+    id: 7,
+    name: "Carlos M. Alvarez",
+    role: "Vice President – Infrastructure & Construction",
+    image: "/assets/our-team/carlos-m-alvarez.jpeg",
+    bio: "Overseeing large-scale infrastructure projects with focus on innovation, efficiency, and delivering complex construction on schedule and budget."
+  },
+  {
+    id: 8,
+    name: "Aisha Noor Al-Hassan",
+    role: "Director – Offshore Energy & Power Projects",
+    image: "/assets/our-team/aisha-noor-al-hassan.jpeg",
+    bio: "Pioneering offshore energy solutions and power infrastructure projects with expertise in marine construction and renewable energy systems."
   }
 ];
 

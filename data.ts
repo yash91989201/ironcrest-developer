@@ -659,5 +659,125 @@ export const jobs: Job[] = [
     location: "Aberdeen, UK",
     type: "Full-Time",
     description: "Protect construction software and industrial control systems from cyber threats. Implement security protocols, conduct penetration testing, and ensure compliance with industry standards."
+  },
+  {
+    id: 23,
+    title: "Construction Project Manager",
+    department: "Construction",
+    location: "Mumbai, India",
+    type: "Full-Time",
+    description: "Lead large-scale construction projects from initiation to completion. Manage budgets, timelines, teams, and stakeholder communications for complex infrastructure projects."
+  },
+  {
+    id: 24,
+    title: "Construction Manager",
+    department: "Construction",
+    location: "Houston, TX",
+    type: "Full-Time",
+    description: "Oversee daily construction operations, coordinate subcontractors, and ensure quality standards are met. Experience in industrial and commercial construction required."
+  },
+  {
+    id: 25,
+    title: "Construction Site Manager",
+    department: "Construction",
+    location: "Dubai, UAE",
+    type: "Full-Time",
+    description: "Manage on-site construction activities, worker safety, and equipment deployment. Ensure compliance with local building codes and safety regulations."
+  },
+  {
+    id: 26,
+    title: "Construction Superintendent",
+    department: "Construction",
+    location: "Singapore",
+    type: "Full-Time",
+    description: "Supervise construction crews, coordinate trade activities, and maintain project schedules. Strong leadership skills and construction experience essential."
+  },
+  {
+    id: 27,
+    title: "Civil Foreman",
+    department: "Construction",
+    location: "Delhi, India",
+    type: "Full-Time",
+    description: "Lead skilled tradespeople and laborers on construction sites. Coordinate daily work activities, ensure safety compliance, and maintain quality standards."
+  },
+  {
+    id: 28,
+    title: "Site Supervisor",
+    department: "Construction",
+    location: "Bangalore, India",
+    type: "Full-Time",
+    description: "Monitor construction progress, supervise workers, and ensure project milestones are achieved. Strong organizational and communication skills required."
+  },
+  {
+    id: 29,
+    title: "Quantity Surveyor",
+    department: "Construction",
+    location: "Aberdeen, UK",
+    type: "Full-Time",
+    description: "Analyze project costs, prepare estimates, and manage contracts. Experience with construction materials, labor costs, and project budgeting required."
+  },
+  {
+    id: 30,
+    title: "Construction Engineer",
+    department: "Construction",
+    location: "Chennai, India",
+    type: "Full-Time",
+    description: "Provide technical engineering support for construction projects. Review plans, solve technical problems, and ensure structural integrity of builds."
+  },
+  {
+    id: 31,
+    title: "Building Inspector",
+    department: "Construction",
+    location: "Rotterdam, NL",
+    type: "Full-Time",
+    description: "Conduct inspections of construction work to ensure compliance with building codes, safety standards, and quality specifications."
+  },
+  {
+    id: 32,
+    title: "Heavy Equipment Operator",
+    department: "Construction",
+    location: "Perth, Australia",
+    type: "Full-Time",
+    description: "Operate heavy construction equipment including excavators, bulldozers, and cranes. Maintain equipment and ensure safe operation on construction sites."
+  },
+  {
+    id: 33,
+    title: "Crane Operator",
+    department: "Construction",
+    location: "Alberta, Canada",
+    type: "Full-Time",
+    description: "Operate tower and mobile cranes for lifting and positioning construction materials. Certification and extensive experience with crane operations required."
+  },
+  {
+    id: 34,
+    title: "Electrician",
+    department: "Construction",
+    location: "Hyderabad, India",
+    type: "Full-Time",
+    description: "Install and maintain electrical systems on construction sites. Knowledge of industrial electrical systems and safety protocols required."
+  },
+  {
+    id: 35,
+    title: "Plumber",
+    department: "Construction",
+    location: "Rio de Janeiro, Brazil",
+    type: "Full-Time",
+    description: "Install and repair plumbing systems in commercial and industrial buildings. Experience with large-scale plumbing systems and equipment."
+  },
+  {
+    id: 36,
+    title: "Welder",
+    department: "Construction",
+    location: "Kochi, India",
+    type: "Full-Time",
+    description: "Perform welding operations for structural steel and metal fabrication. Experience with various welding techniques and industrial welding required."
+  },
+  {
+    id: 37,
+    title: "HVAC Technician",
+    department: "Construction",
+    location: "Dubai, UAE",
+    type: "Full-Time",
+    description: "Install, maintain, and repair heating, ventilation, and air conditioning systems in commercial and industrial facilities."
   }
 ];

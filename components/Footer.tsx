@@ -53,9 +53,6 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-white font-bold uppercase tracking-wider mb-6">Connect</h4>
             <div className="flex gap-4 mb-6">
-              <a href="#" className="w-10 h-10 bg-white/5 flex items-center justify-center hover:bg-gold-600 transition-colors">
-                <Youtube size={18} />
-              </a>
               <a href="https://www.instagram.com/ironcrestdevelopers?igsh=OWhvdXd6anJzMXhs" target="_blank" className="w-10 h-10 bg-white/5 flex items-center justify-center hover:bg-gold-600 transition-colors">
                 <Instagram size={18} />
               </a>

@@ -34,9 +34,9 @@ const ContactPage: React.FC = () => {
                 { city: "Mumbai, India", address: "7 Marine Drive, Fort District", phone: "+91 7943494755" },
                 { city: "London", address: "22 Bishopsgate, Level 18", phone: "+44 20 5550 7890" },
                 { city: "Dubai", address: "120 Sheikh Zeyed Road, Tower 3", phone: "+971 4 5555 2040" },
-                { city: "Bangalore, India", address: "Electronic City Phase 1", phone: "7965267779" },
-                { city: "Hyderabad, India", address: "HITEC City, Madhapur", phone: "7965267780" },
-                { city: "Pune, India", address: "Baner Road, Balewadi", phone: "7943494756" }
+                { city: "Bangalore, India", address: "Electronic City Phase 1", phone: "+91 7965267779" },
+                { city: "Hyderabad, India", address: "HITEC City, Madhapur", phone: "+91 7965267780" },
+                { city: "Pune, India", address: "Baner Road, Balewadi", phone: "+91 7943494756" }
               ].map((loc, index) => (
               <Reveal key={index} delay={index * 0.1}>
                 <div className="border border-gray-100 p-8 text-center hover:border-gold-500 transition-colors group">

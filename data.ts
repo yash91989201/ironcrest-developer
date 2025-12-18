@@ -36,7 +36,7 @@ const locations = ["Texas, USA", "North Sea, UK", "Dubai, UAE", "Singapore", "Pe
 const projectImages = {
   "Oil & Gas": [
     "https://images.unsplash.com/photo-1518709414768-a88981a4515d?q=80&w=800&auto=format&fit=crop", // Refinery night
-    "https://cdn.stocksnap.io/img-thumbs/960w/sea-ocean_85JUR5TYWM.jpg", // Pipes
+    "https://firstmaritime.net/img/news/11.04.16.jpg", // Pipes
     "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800&auto=format&fit=crop", // Industrial
     "https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=800&auto=format&fit=crop", // Silos
     "https://www.shutterstock.com/image-photo/st-johns-newfoundland-canadajanuary-2023-600nw-2269617229.jpg", // Construction

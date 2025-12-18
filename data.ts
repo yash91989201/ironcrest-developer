@@ -47,7 +47,7 @@ const projectImages = {
   ],
   "Offshore": [
     "https://res.cloudinary.com/osrl-production/image/upload/osrlprod/globalassets/knowledge-hub-169/crisis-management/offshore-wind-farm-turbines.png", // Rig Sea
-    "https://images.unsplash.com/photo-1605648916361-9bc12ad6a569?q=80&w=800&auto=format&fit=crop", // Platform
+    "https://shreepatigroup.co.in/wp-content/uploads/2025/07/How-Mumbai-High-South-Redevelopment-Is-Changing-Residential-Properties-in-South-Mumbai.jpg", // Platform
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMiQf8uiKadPMvSV6VRm3iOuOLGn30UhKKQ&s", // Ocean Rig
     "https://static.wixstatic.com/media/9d72ca_ed45696868fc4a9eb44f2e33f7150692~mv2.png/v1/fill/w_720,h_432,al_c,q_85,enc_avif,quality_auto/9d72ca_ed45696868fc4a9eb44f2e33f7150692~mv2.png", // Ship
     "https://www.fordham.edu/media/review/content-assets/migrated/images/fordham_042508_0004.jpg", // Sea
@@ -55,7 +55,7 @@ const projectImages = {
     "https://www.oberonengineering.com/wp-content/uploads/2024/03/shutterstock_1606208581.webp", // Welding
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqqMVkQ26T4572ta92PGl0eoZ_qBbTal2vRQ&s", // Waves rig
     "https://dvzpv6x5302g1.cloudfront.net/AcuCustom/Sitename/DAM/144/web_only_Anita_Garbaldi_source_Petrobras.png", // Engineer
-    "https://images.unsplash.com/photo-1618172193763-c511deb635ca?q=80&w=800&auto=format&fit=crop"  // Platform night
+    "https://media.assettype.com/deccanherald/2025-01-08/bt5r1doz/iStock-1452806002.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true"  // Platform night
   ],
   "Renewable Energy": [
     "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=800&auto=format&fit=crop", // Solar
@@ -79,10 +79,10 @@ const projectImages = {
     "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?q=80&w=800&auto=format&fit=crop", // Workers
     "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSgnweWONSaYaBg1XyZOAhpkgIV0gqp2oKYb5zEPRJhgnmgVQSGilh61S6cHUNid-EDDtGEomzL", // Tanks
     "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop", // Steel
-    "https://images.unsplash.com/photo-1518733057094-95b53143d2a7?q=80&w=800&auto=format&fit=crop"  // Complexity
+    "https://upload.wikimedia.org/wikipedia/commons/d/d2/TASNEE_001.jpg"  // Complexity
   ],
   "Infrastructure": [
-    "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=800&auto=format&fit=crop", // Bridge
+    "https://www.nemetschek.com/sites/default/files/styles/1600_900/public/2020-11/Queensferry_Project_Category_Infrastructure_gross.jpg?itok=lFyCSkKF", // Bridge
     "https://www.arup.com/globalassets/images/projects/m/metro-tunnel-project/metro-tunnel-project.webp?width=1840&height=1035&quality=80", // Bridge 2
     "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=800&auto=format&fit=crop", // City
     "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=800&auto=format&fit=crop", // Lights
@@ -90,7 +90,7 @@ const projectImages = {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsKFtNWt62MtL2h5tO6fob6Q7h7Bjyd99GQ&s", // Tunnel
     "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcz4LK3H6g4CmdCY23t1-KYdKsyzaeLkOe1OgtcHze2_kGNMAygExfc95IJj_JYJ0qFpEvbR-c", // Architecture
     "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBfnadjain7OoZOuIx2DPjSUjB2DpqpzdU1hCqLVdAeXETZyWKXLX-S-cWeXIixYt_oHGPtu-j", // Highway
-    "https://images.unsplash.com/photo-1425315283416-2acc50323ee6?q=80&w=800&auto=format&fit=crop", // Road
+    "https://www.ibef.org/assets/images/Road-Infrastructure-3.jpg", // Road
     "https://thumbs.dreamstime.com/b/tokyo-street-view-evening-japan-june-travel-photography-120032419.jpg"  // Concrete
   ]
 };
@@ -246,7 +246,7 @@ const indianProjects: Project[] = [
     title: "Mumbai High South Redevelopment",
     location: "Mumbai Offshore, India",
     category: "Offshore",
-    image: "https://images.unsplash.com/photo-1605648916361-9bc12ad6a569?q=80&w=800&auto=format&fit=crop",
+    image: "https://img.etimg.com/thumb/width-1200,height-1200,imgsize-899249,resizemode-75,msid-79240898/industry/services/property-/-cstruction/south-mumbais-bhendi-bazaar-redevelopment-project-completes-first-phase.jpg",
     client: "ONGC",
     completionDate: "2024",
     budget: "$2.5 Billion",
@@ -366,7 +366,7 @@ const indianProjects: Project[] = [
     title: "Chenab Rail Bridge",
     location: "Reasi, J&K, India",
     category: "Infrastructure",
-    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=800&auto=format&fit=crop",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuzGDWHserutYjTECLPWB9NDqnervgnbRMhQ&s",
     client: "Indian Railways",
     completionDate: "2024",
     budget: "$180 Million",

@@ -60,7 +60,6 @@ const Contact: React.FC = () => {
                   <Phone className="text-gold-500 mt-1" />
                   <div>
                     <h5 className="font-bold text-lg">Phone</h5>
-                    <p className="text-gray-400">+91 7943494755</p>
                     <p className="text-gray-400">+91 7943494756</p>
                     <p className="text-gray-400">+91 7965267779</p>
                     <p className="text-gray-400">+91 7965267780</p>

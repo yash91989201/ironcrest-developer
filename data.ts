@@ -436,8 +436,8 @@ export const team: TeamMember[] = [
   },
   {
     id: 5,
-    name: "David L. Harrington",
-    role: "Executive Director – Global Projects",
+    name: "Jacob R. Ironcrest",
+    role: "Chief Human Resources Officer",
     image: "/assets/our-team/david-l-harrington.jpeg",
     bio: "Leading international project initiatives with expertise in global infrastructure development and strategic partnership management."
   },

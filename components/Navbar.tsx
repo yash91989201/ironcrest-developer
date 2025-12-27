@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2 group">
-            <img src="/logo.png" alt="Ironcrest Developers" className="h-40 w-auto group-hover:scale-105 transition-transform" />
+            <img src="/logo.png" alt="Ironcrest Developers" className="h-40 w-auto xl:h-24 group-hover:scale-105 transition-transform" />
           </Link>
 
           {/* Desktop Nav */}
@@ -106,7 +106,7 @@ const Navbar: React.FC = () => {
         <div className="h-full flex flex-col items-center justify-center gap-1 px-8">
           {/* Logo section */}
           <div className={`mb-8 transition-all duration-700 delay-100 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
-            <img src="/logo.jpeg" alt="Ironcrest Developers" className="h-16 w-auto mx-auto" />
+            <img src="/logo.png" alt="Ironcrest Developers" className="h-16 w-auto mx-auto" />
           </div>
 
           {/* Gold accent line */}

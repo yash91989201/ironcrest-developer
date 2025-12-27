@@ -9,18 +9,8 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
 
           <div>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="p-2 bg-gold-600 rounded-sm text-white">
-                <Hammer size={20} />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-lg font-bold tracking-widest uppercase font-serif">
-                  Ironcrest
-                </span>
-                <span className="text-[9px] tracking-[0.3em] uppercase text-gray-400">
-                  Developers
-                </span>
-              </div>
+            <div className="mb-6">
+              <img src="/logo.png" alt="Ironcrest Developers" className="h-32 w-auto" />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Building the foundations of tomorrow with integrity, precision, and unparalleled craftsmanship.

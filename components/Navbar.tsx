@@ -50,17 +50,7 @@ const Navbar: React.FC = () => {
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="p-2 bg-gold-600 rounded-sm text-white group-hover:bg-gold-500 transition-colors">
-              <Hammer size={24} />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl font-bold tracking-widest uppercase font-serif text-white">
-                Ironcrest
-              </span>
-              <span className="text-[10px] tracking-[0.3em] uppercase text-gray-300">
-                Developers
-              </span>
-            </div>
+            <img src="/logo.png" alt="Ironcrest Developers" className="h-40 w-auto group-hover:scale-105 transition-transform" />
           </Link>
 
           {/* Desktop Nav */}
@@ -115,18 +105,8 @@ const Navbar: React.FC = () => {
         {/* Menu content */}
         <div className="h-full flex flex-col items-center justify-center gap-1 px-8">
           {/* Logo section */}
-          <div className={`flex items-center gap-2 mb-8 transition-all duration-700 delay-100 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
-            <div className="p-2 bg-gold-600 rounded-sm text-white">
-              <Hammer size={20} />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-lg font-bold tracking-widest uppercase font-serif text-white">
-                Ironcrest
-              </span>
-              <span className="text-[8px] tracking-[0.3em] uppercase text-gray-300">
-                Developers
-              </span>
-            </div>
+          <div className={`mb-8 transition-all duration-700 delay-100 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
+            <img src="/logo.jpeg" alt="Ironcrest Developers" className="h-16 w-auto mx-auto" />
           </div>
 
           {/* Gold accent line */}

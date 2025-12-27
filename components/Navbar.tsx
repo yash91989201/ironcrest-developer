@@ -50,7 +50,8 @@ const Navbar: React.FC = () => {
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2 group">
-            <img src="/logo.png" alt="Ironcrest Developers" className="h-40 w-auto xl:h-24 group-hover:scale-105 transition-transform" />
+            <img src="/logo-mobile.png" alt="Ironcrest Developers" className="md:hidden h-12 w-auto group-hover:scale-105 transition-transform" />
+            <img src="/logo.png" alt="Ironcrest Developers" className="hidden md:block h-40 w-auto xl:h-24 group-hover:scale-105 transition-transform" />
           </Link>
 
           {/* Desktop Nav */}
@@ -76,6 +77,7 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Toggle */}
           <button
+            type="button"
             className="md:hidden text-white hover:text-gold-500 transition-colors z-70"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -95,6 +97,7 @@ const Navbar: React.FC = () => {
 
         {/* Close button - top right corner */}
         <button
+          type="button"
           onClick={() => setIsMenuOpen(false)}
           className="absolute top-6 right-6 p-3 text-white hover:text-gold-500 hover:rotate-90 transition-all duration-300 hover:scale-110 z-70"
           aria-label="Close menu"
